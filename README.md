@@ -5,7 +5,7 @@ Use conditional-dcgans to generate realistic images of digits.
 
 The digits you see above are not real, they are generated using a PyTorch based Conditional DCGAN, I've prepared a colab notebook, feel free to check it out by clicking the badge below.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mainakdeb/digit-GAN/blob/main/digit-dcgan.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mainakdeb/deceptive-digits/blob/main/deceptive-digits.ipynb?authuser=1)
 
 
 ## What Exactly is a Conditional GAN ? 
