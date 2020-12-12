@@ -3,10 +3,13 @@ Use conditional-dcgans to generate realistic images of digits.
 
 <img src="https://github.com/Mainakdeb/deceptive-digits/blob/main/images/mnist_cgan_demo.gif" width="610">
 
-The digits you see above are not real, they are generated using a PyTorch based Conditional DCGAN, I've prepared a colab notebook, feel free to check it out by clicking the badge below.
+The digits you see above are not real, they are generated using a PyTorch based Conditional DCGAN, but what if you wanted to generate images of numbers with multiple digits? I've used numpy to crop, invert and stich generated images horizontally, check out the generated image below, the input was 9830976450, and each individual digit was cropped, inverted and stiched together with low spacing to improve realism.
+
+<img src="https://github.com/Mainakdeb/deceptive-digits/blob/main/images/generated9830976450%20_with_title.png" width="610">
+
+I've prepared a colab notebook, feel free to check it out by clicking the badge below.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mainakdeb/deceptive-digits/blob/main/deceptive-digits.ipynb?authuser=1)
-
 
 ## What Exactly is a Conditional GAN ? 
 The **condition** in a Conditional GAN is basically the desired class of the generated sample, it is a generative model that allows the generation of targeted data from a given class. Unlike a traditional GAN, it also accounts for the labels while training. 
