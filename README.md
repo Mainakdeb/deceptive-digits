@@ -5,9 +5,9 @@ Use conditional-dcgans to generate realistic images of digits.
 
 <img src="https://github.com/Mainakdeb/deceptive-digits/blob/main/images/mnist_cgan_demo.gif" width="610">
 
-The digits you see above are not real, they are generated using a PyTorch based Conditional DCGAN, but what if you wanted to generate images of numbers with multiple digits? I've used numpy to crop, invert and stich generated images horizontally, check out the generated image below, the input was 9830976450, and each individual digit was cropped, inverted and stiched together with low spacing to improve realism.
+The digits you see above are not real, they are generated using a PyTorch based Conditional DCGAN, but what if you wanted to generate images of numbers with multiple digits? I've used numpy to crop, invert and stich generated images horizontally, check out the generated images below, the input was 9830976450, and each individual digit was cropped, inverted and stiched together with low spacing to improve realism.
 
-<img src="https://github.com/Mainakdeb/deceptive-digits/blob/main/images/generated9830976450%20_with_title.png" width="610">
+<img src="https://github.com/Mainakdeb/deceptive-digits/blob/main/images/mnist_cgan_multiple_digits_fast.gif" width="610">
 
 I've prepared a colab notebook, feel free to check it out.
 
